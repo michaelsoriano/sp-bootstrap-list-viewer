@@ -1,0 +1,208 @@
+.spBLWrapper {
+  margin-bottom: 35px;
+  background: #fff;
+  padding: 0 0 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.showFilter {
+  float:right;
+}
+.showFilter a {
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: none;
+  margin-right: 5px;  
+  position:relative;
+  top:-2px;
+}
+
+.clearFilter {
+  margin-top:15px;
+  margin-left:5px;
+  display:none;
+}
+
+.spBLWrapper h5 {
+  background: #335771;
+  color: #fff;
+  margin: 0 0 0 0;
+  padding: 16px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.alert {
+  margin-bottom:0;
+}
+
+.spBLFilters {
+  padding: 25px;
+  background: #ebebeb;
+  position: relative;
+  overflow: hidden;
+}
+.spBLContainer {
+  padding: 25px 20px 10px 20px;
+  line-height: 23px;
+}
+.qaSet hr {
+  border-top: 1px solid #DBDBDB;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 12px 10px 0px 30px;
+}
+
+a.question, 
+.meta, 
+.answer {
+   padding-left: 30px;
+   padding-right:15px;
+}
+a.question {
+  display: block;
+  color: #444;
+  background: url('/images/plus.png') no-repeat 0px 3px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+a.question.minus {
+  background: url('/images/minus.png') no-repeat 0px 3px;
+}
+
+
+.meta {
+  font-size: 11px;
+  font-family: verdana;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #838383;  
+}
+.fa-refresh {
+  margin-right:8px;
+}
+.answer {
+  color: #858585;
+  display:none;
+}
+
+.spBLPagerContainer{
+  text-align: center;
+}
+.spBLPagerContainer .pagination {
+  margin-bottom:8px;
+  margin-top:8px;
+}
+
+.pagination>li>a {
+  color:#335771;
+}
+
+.pagination>.active>a, 
+.pagination>.active>a:active, 
+.pagination>.active>a:visited, 
+.pagination>.active>a:focus {
+  background-color: #335771;
+  border-color: #335771;
+}
+
+/*checkbox style*/
+
+
+.spBLFilters fieldset {
+  position:relative;
+  left:25px;
+}
+.count {
+  color:#086C93;
+}
+.radio+.radio, .checkbox+.checkbox {
+  margin-top: 0;
+}
+.checkbox {  
+  height:27px;
+  margin:0 0 0 0;
+  padding:0 0 0 0;   
+}
+
+.checkbox label {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 8px; 
+    padding-right: 30px;
+   /* white-space: nowrap;*/
+}
+.checkbox label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out, color 0.15s ease-in-out; 
+}
+.checkbox label::after {
+      display: inline-block;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 0;
+      top: 0;
+      margin-left: -20px;
+      padding-left: 3px;
+      padding-top: 1px;
+      font-size: 11px;
+      color: #555555; 
+}
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+    z-index: 1; 
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; 
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+    font-family: 'FontAwesome';
+    content: "\f00c"; 
+}
+.checkbox input[type="checkbox"]:disabled + label {
+    opacity: 0.65; 
+}
+.checkbox input[type="checkbox"]:disabled + label::before {
+    background-color: #eeeeee;
+    cursor: not-allowed; 
+}
+.checkbox.checkbox-circle label::before {
+    border-radius: 50%; 
+}
+.checkbox.checkbox-inline {
+    margin-top: 0; 
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+.checkbox-success input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+
+@media(max-width: 600px) {
+    .showFilter {
+      float:none;
+      clear: both;
+      display: block;
+      margin-top:5px;
+    }
+}

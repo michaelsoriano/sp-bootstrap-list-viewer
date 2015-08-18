@@ -1,0 +1,19 @@
+<script type="text/javascript" src="PATH-TO-SPSERVICES.JS"></script>
+<script type="text/javascript" src="sp-bootstrap-list-viewer.js"></script>
+<link rel="stylesheet" href="PATH-TO-BOOTSTRAP.css" />
+<link rel="stylesheet" href="sp-bootstrap-list-viewer.css" />
+<script type="text/javascript">
+var spBL233565656  = new spBootstrapList({
+		"instance" : "spBL233565656",
+		"filterBy":"ENTER FILTER FIELD HERE",		
+		"answer" : "ENTER ANSWER COLUMN NAME",
+		"listName" : "ENTER LIST NAME HERE"
+});
+</script>
+<div class="spBLWrapper" id="spBL233565656">
+  <h5><span class="title"></span> <span class="showFilter">
+	<a id="showHideFilterTrigger" href="#"></a><span class="glyphicon glyphicon-filter"></span></span></h5>
+  <div class="spBLFilters" style="display:none;"><i class="fa fa-refresh fa-spin"></i><small>Building filter list...</small></div>
+  <div class="spBLContainer"></div>
+  <div class="spBLPagerContainer"><i class="fa fa-refresh fa-spin"></i><small>Checking for pages...</small></div>
+</div>
