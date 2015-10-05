@@ -608,7 +608,7 @@ var spBootstrapList = function(){
         },
 
         callSPServices  : function(rowLimit, fetchAllCols){
-            var limit = (rowLimit == 'nolimit') ? '' : _settings.rowLimit;
+            var limit = (rowLimit == 'nolimit') ? '1000000' : _settings.rowLimit;
             var options = {
                 CAMLViewFields: methods.fieldsToRead(fetchAllCols),
                 CAMLQuery: methods.query(),
