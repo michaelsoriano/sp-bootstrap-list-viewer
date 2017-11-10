@@ -6,9 +6,9 @@ A Javascript plugin that will create a custom view for your SharePoint list. Com
 
 * jquery.min.js
 * jquery.SPServices-2014.02.min.js
-* bootstrap.min.js
+* bootstrap.min.css
 
-### The plugin already includes the above files via CDN
+### This plugin will include the above files via CDN
 
 ####How to use the plugin:
 
