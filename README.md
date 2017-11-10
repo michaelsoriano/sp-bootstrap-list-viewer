@@ -2,6 +2,14 @@
 
 A Javascript plugin that will create a custom view for your SharePoint list. Complete with filtering and pagination. 
 
+### Note that this will require the following files:
+
+* jquery.min.js
+* jquery.SPServices-2014.02.min.js
+* bootstrap.min.js
+
+### The plugin already includes the above files via CDN
+
 ####How to use the plugin:
 
 Note that I've only tested this with SharePoint 2013. You may need administrator rights to your website, as well as you should know how to work with custom lists and document libraries and such. 
