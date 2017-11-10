@@ -64,13 +64,13 @@ a.question,
 a.question {
   display: block;
   color: #444;
-  background: url('/images/plus.png') no-repeat 0px 3px;
+  background: url('https://raw.githubusercontent.com/michaelsoriano/sp-bootstrap-list-viewer/c1fa42bc/images/plus.png') no-repeat 0px 3px;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
 }
 a.question.minus {
-  background: url('/images/minus.png') no-repeat 0px 3px;
+  background: url('https://raw.githubusercontent.com/michaelsoriano/sp-bootstrap-list-viewer/c1fa42bc/images/minus.png') no-repeat 0px 3px;
 }
 
 
