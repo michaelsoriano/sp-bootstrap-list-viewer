@@ -17,7 +17,11 @@ A Javascript plugin that will create a custom view for your SharePoint list. Com
 
 Note that I've only tested this with SharePoint 2013. You may need administrator rights to your website, as well as you should know how to work with custom lists and document libraries and such. 
 
-After you have downloaded the files, open the "sp-bootstrap-list-viewer.html" in you text editor. This is where you will add the plugin information. You basically need to add 2 things: the list name, the "Answer" column. The rest of the options are optional such as the "filterBy" and "rowLimit". The table below will show you want the rest of the options do. 
+After you have downloaded the files, open the "sp-bootstrap-list-viewer.html" in you text editor. 
+
+Change the "CHANGE-TO-YOUR-PATH" in the script and css tags - to reflect your downloaded path.
+
+This is where you will add the plugin information. You basically need to add 2 things: the list name, the "Answer" column. The rest of the options are optional such as the "filterBy" and "rowLimit". The table below will show you want the rest of the options do. 
 
 ![alt tag](http://michaelsoriano.com/wp-content/uploads/2015/07/sp-list3.jpg)
 
