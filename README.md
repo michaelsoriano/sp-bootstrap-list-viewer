@@ -10,9 +10,6 @@ A Javascript plugin that will create a custom view for your SharePoint list. Com
 
 ### This plugin will include the above files via CDN
 
-### It will also include sp-bootstrap-list-viewer.js, sp-bootstrap-list-viewer.css by default. Which means any changes will automatically show on your site.
-
-
 ####How to use the plugin:
 
 Note that I've only tested this with SharePoint 2013. You may need administrator rights to your website, as well as you should know how to work with custom lists and document libraries and such. 
