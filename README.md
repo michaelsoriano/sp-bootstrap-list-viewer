@@ -1,3 +1,6 @@
+# ARCHIVED / DISCONTINUED
+I've decided to discontinue the development of this plugin to concentrate my efforts on other projects.
+
 # sp-bootstrap-list-viewer
 
 A Javascript plugin that will create a custom view for your SharePoint list. Complete with filtering and pagination. 
